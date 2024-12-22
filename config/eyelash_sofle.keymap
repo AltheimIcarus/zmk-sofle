@@ -37,11 +37,12 @@
             delay-ms = <0>;                   //   10
         };
 
-        close_app {
+        morph_close: morph_close {
             compatible = "zmk,behavior-mod-morph";
             #binding-cells = <4>;
             bindings = <&kp N4>, <&kp C_AC_CLOSE>;
-            mods = <MOD_LALT>;
+            mods = <(MOD_LALT)>;
+            keep-mods = <(MOD_LALT)>;
         };
     };
 
