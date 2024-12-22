@@ -39,7 +39,7 @@
 
         morph_close: morph_close {
             compatible = "zmk,behavior-mod-morph";
-            #binding-cells = <4>;
+            #binding-cells = <0>;
             bindings = <&kp N4>, <&kp F4>;
             mods = <(MOD_LALT)>;
             keep-mods = <(MOD_LALT)>;
