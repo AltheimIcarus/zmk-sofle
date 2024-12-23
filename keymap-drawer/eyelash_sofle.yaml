@@ -86,7 +86,7 @@ layers:
   - '&mkp MB4'
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - PG UP
-  - HOME
+  - Ins
   - $$mdi:arrow-up-bold$$
   - END
   - {t: '$$mdi:transfer$$', type: trans}
@@ -113,7 +113,7 @@ layers:
   - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - RGB BRI
   - RGB BRD
-  - Ins
+  - HOME
   - F11
   - F12
   - {t: '$$mdi:transfer$$', type: trans}
@@ -151,7 +151,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
-  - HOME
+  - Ins
   - $$mdi:arrow-up-bold$$
   - END
   - '|'
